@@ -18,4 +18,8 @@ spec:
            name: argo-combined-app
            port:
              number: 80
+<<<<<<< HEAD
     host: staging.argo-combined-app.rhd-fra04-may25-3423486-4c50a18a6ae19b704aa10d04d75751f8-0000.eu-de.containers.appdomain.cloud
+=======
+    host: staging.argo-combined-app.apps.caas-oat.gdc.geodis.org
+>>>>>>> 2a4a66f84409d7e63905ebbb69731017fc107ea0
