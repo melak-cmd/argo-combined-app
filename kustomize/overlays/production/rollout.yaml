@@ -41,6 +41,8 @@ spec:
           requests:
             cpu: 80m
             memory: 128Mi
+      securityContext:
+        runAsNonRoot: true
   strategy:
     canary:
       canaryService: argo-combined-app-canary
