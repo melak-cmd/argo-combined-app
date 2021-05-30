@@ -3,10 +3,10 @@ kind: Kustomization
 
 resources:
 - service.yaml
+- configmap.yaml
 
 configMapGenerator:
-- files:
+- behavior: merge
+  files:
   - default.conf
   name: nginx-config
-  renaming: hash_suffix
-
